@@ -1,0 +1,33 @@
+* {
+  overflow:hidden ;
+
+  cursor: url("../images/main.png"), auto;
+  
+}
+
+button{
+    /* attractive button border; */
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 5px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+
+}
+button:hover{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px 5px;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.body{
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
