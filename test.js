@@ -70,7 +70,7 @@ button.addEventListener("click", function () {
   //change font size
 
   addImages();
-  shuffleImages();
+  // shuffleImages();
 });
 //current mouse position
 
