@@ -93,16 +93,6 @@ document.addEventListener('mousemove', (ev) => {
     for (const img of images) {
       let newLeft = img.offsetLeft + deltaX;
       let newTop = img.offsetTop + deltaY;
-      // Keep in bounds
-      // const minLeft = 0;
-      // const minTop = 0;
-      // const maxLeft = img.parentElement.clientWidth - img.clientWidth;
-      // const maxTop = img.parentElement.clientHeight - img.clientHeight;
-      // newLeft = Math.max(minLeft, newLeft);
-      // newLeft = Math.min(maxLeft, newLeft);
-      // newTop = Math.max(minTop, newTop);
-      // newTop = Math.min(maxTop, newTop);
-      // update
       img.style.left = newLeft + 'px';
       img.style.top = newTop + 'px';
     }
