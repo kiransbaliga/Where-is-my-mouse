@@ -15,7 +15,7 @@ body {
   height: 100%;
 
   /* This is the actual main fake cursor! */
-  background: url("https://i.sstatic.net/Zt6te.png") calc(50% + 2px)
+  background: url("https://raw.githubusercontent.com/kiransbaliga/Where-is-my-mouse/main/pointer.png") calc(50% + 2px)
     calc(50% + 14px) no-repeat;
   pointer-events: none; /* allow click-through */
 }
@@ -60,7 +60,7 @@ body {
   position: absolute;
   width: 25px;
   height: 32px;
-  background: url("https://i.sstatic.net/Zt6te.png");
+  background: url("https://raw.githubusercontent.com/kiransbaliga/Where-is-my-mouse/main/pointer.png");
 }
 
 #score{
